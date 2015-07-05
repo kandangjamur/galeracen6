@@ -53,7 +53,7 @@ RUN rm -f *.rpm
 
 EXPOSE 22 3306 4444 4567 4568
 
-ADD init.sh /opt/mysecure.sh
+ADD mysecure.sh /opt/mysecure.sh
 RUN chown root.root /opt/mysecure.sh
 CMD ["/bin/bash", "/opt/mysecure.sh"]
 #CMD ["/usr/sbin/init"]
