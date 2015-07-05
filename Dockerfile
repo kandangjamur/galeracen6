@@ -9,7 +9,7 @@ MAINTAINER Obet <say@obet.us>
 
 RUN yum -y update;
 
-RUN echo 'root:1pwd0' | chpasswd
+RUN echo 'root:1pWd0' | chpasswd
 RUN yum -y install openssh-server openssh-clients which wget
 # unsafe
 #RUN sed -ri 's/#PermitRootLogin yes/PermitRootLogin yes/g' /etc/ssh/sshd_config
