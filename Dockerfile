@@ -1,4 +1,4 @@
-# Percona XtraDB Cluster 5.6
+# Percona XtraDB Cluster
 #
 # VERSION 1.0
 # DOCKER-VERSION 1.7.0 build 0baf609
